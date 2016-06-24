@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="public/main.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
 	<title>Forward Progress</title>
 </head>
 <body>
-  <header><h1>FORWARD PROGRESS</h1></header>
-  <%= yield %>
   <nav>
     <ul>
       <li><a href="/">HOME</a></li>
@@ -16,22 +14,18 @@
     </ul>
   </nav>
 
-
-
-
-
-
-
-  <div id="socialBar">
-    <ul>
-      <li><a href="https://www.facebook.com/Left-Shark-794713283910546/?fref=ts"><img src=""></a></li>
-      <li><a href="https://twitter.com/leftshark?lang=en"><img src=""></a></li>
-      <li><a href="https://www.youtube.com/watch?v=lnsapkBJ5Lc"><img src=""></a></li>
-    </ul>
-  </div>
+  <%= yield %>
 
   <footer>
-    <h6>&Copy 2016 Sabin + Shatz</h6>
+    <div id="socialBar">
+      <ul>
+        <li><a href="https://www.facebook.com/Left-Shark-794713283910546/?fref=ts"><img src=""></a></li>
+        <li><a href="https://twitter.com/leftshark?lang=en"><img src=""></a></li>
+        <li><a href="https://www.youtube.com/watch?v=lnsapkBJ5Lc"><img src=""></a></li>
+      </ul>
+    </div>
+
+    <h6>&Copy 2016 Sabin + Shatz</h6> 
   </footer>
 
 

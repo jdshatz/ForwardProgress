@@ -1,11 +1,24 @@
-html {
+* {
 	margin: 0;
 	padding: 0;
 }
 
 body{
-	background-color: #2
+	background-color: #2A4E6E;
 	width:95%;
+}
+
+nav{
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	width: 100vw;
+	position: relative;
+	top: 100px;
+	line-height: 50px;
+}
+
+nav ul{ 
+	padding-left: 100px;
 }
 
 li{
@@ -15,17 +28,35 @@ li{
 a{
 	text-decoration: none;
 	list-style-type: none;
+	color: white;
+	font-size: 20px;
+	margin: 30px;
 }
 
-.footer{
-	height:100 px;
-	width:100%;
+#werdz{
+	width: 90%;
+	height: auto;
+	display: inline-block;
+	margin:0 auto;
+}
+
+#socialBar{
+	display: inline-block;
+	padding-right: 10px;
+}
+
+footer{
+	height:100px;
+	width:100vw;
 	font-family: Garamond, sans-serif;
-	background-color:navy;
+	background-color: #041F37;
 	color:white;
+	line-height: 100px;
 }
 
-.footer h6{
+footer h6{
 	font-size:12px;
 	float:left;
+	padding-left: 10px;
 }
+
