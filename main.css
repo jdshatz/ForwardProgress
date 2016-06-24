@@ -1,0 +1,62 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	height:100vh;
+	width:100vw;
+	width:95%;
+	background-color: #2A4E6E;
+}
+
+nav{
+	width: 100%;
+	background-color:#041F37;
+	color: #133453;
+	font-family:Garamond, bold, sans-serif;
+	font-size:40px;
+}
+
+li{
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.footer{
+	height:10vh;
+	width:100vw%;
+	font-family: Garamond, sans-serif;
+	background-color:#041F37;
+	color:white;
+	display: inline;
+}
+
+#socialBar{
+	height: 6vh;
+	width: 60vw;
+	align-content: left;
+}
+
+#socialBar a{
+	display: inline-block;
+	height: 5vh;
+	width: 15vh;
+	margin: 2.5vh auto;
+}
+
+#copyright {
+	height: 2vh;
+	width: 40vw;
+	align-content: right;
+	float:right;
+}
+
+#copyright h6{
+	font-size:12px;
+	float:right;
+}
