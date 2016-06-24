@@ -1,0 +1,157 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    background-color: #2A4E6E;
+
+}
+.wrapper{
+  height:120%;
+  width:120%;
+  background-color: #2A4E6E;
+}
+
+nav{
+  width: 100%;
+  background-color:#041F37;
+  color: #133453;
+  font-family:Garamond, bold, sans-serif;
+  font-size:40px;
+}
+
+li{
+  display: inline-block;
+}
+
+a{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.footer{
+  height:10vh;
+  width:100vw%;
+  font-family: Garamond, sans-serif;
+  background-color:#041F37;
+  color:white;
+  display: inline;
+}
+
+#socialBar{
+  height: 6vh;
+  width: 60vw;
+  align-content: left;
+}
+
+#socialBar a{
+  display: inline-block;
+  height: 5vh;
+  width: 15vh;
+  margin: 2.5vh auto;
+}
+
+#copyright {
+  height: 2vh;
+  width: 40vw;
+  align-content: right;
+  float:right;
+}
+
+#copyright h6{
+  font-size:12px;
+  float:right;
+}
+
+h1{
+  width: 100vw;
+  text-align: center;
+  font-size: 80px;
+  font-family: Georgia, bold, sans-serif;
+  color: white;
+}
+
+h2{
+  width: 100vw;
+  text-align: center;
+  font-size: 70px;
+  font-family: Garamond, bold, serif;
+  color: white;
+}
+
+
+.testimonial-link{
+  height:70vh;
+  width:20vw;
+  margin-left: 10vw;
+  margin-bottom:10vw;
+  display: inline-block;
+  background-color: white;
+  border-width: 5px;
+  border-color:grey;
+  border-style: solid;
+}
+
+.testimonial-link img{
+  height: 50vh;
+  width: 20vw;
+}
+
+.testimonial-link h4{
+  font-size: 30px;
+  font-family: Georgia, bold, serif;
+  color: #133453;
+  text-align:center;
+}
+
+
+.testimonial{
+    display: block;
+    width: 70vw; 
+    height: 160vh; 
+    background-color: white;
+    position:absolute;
+    left:15vw;
+    top:20vh;
+}
+
+.testimonial h6{
+    font-size: 30px;
+    color: #133453;
+}
+
+#portrait{
+    width: 70vw; 
+    height: 65vh; 
+  }
+
+#portrait img {
+  width: 70vw; 
+  height: 50vh; 
+}
+
+#testimonialtext{
+    height:100vh; 
+    width:50vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#testimonialtext h2{
+    font-size: 80px;
+    color: #133453;
+    text-align:center;
+    margin-left: -25vw;
+  }
+
+#testimonialtext h4{
+    font-size: 50px;
+    color: #133453;
+}
+
+#testimonialtext p{
+    font-size: 40px;
+    color: #133453;
+}
+
